@@ -1,0 +1,10 @@
+
+# Note: below 8888 is used to signify the port.
+#       However, it may be another number if 8888 is in use.
+#       Check jupyter_notebook_%j.err to find the port.
+
+# Command to create SSH tunnel:
+ssh -N -f -L 8887:lrdn3348:8887 sdigioia@.leonardo.cineca.it
+# Use a browser on your local machine to go to:
+http://localhost:8887/
+
